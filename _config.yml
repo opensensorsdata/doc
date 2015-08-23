@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            documents
+tagline:          'by opensensorsdata'
+description:      'the archive of <a href="http://opensensorsdata.it" target="_blank">opensensorsdata</a>'
+url:              
+baseurl:          /
+logo:             'public/images/osd_simple_200.svg'
+
+author:
+  name:           'osd crew'
+  url:            https://twitter.com/osd_it
+
+paginate:         5
+
+# Custom vars
+version:          1.0
+
+social:
+  github:           https://github.com/opensensorsdata/
+  twitter:          https://twitter.com/osd_it
+  facebook:         https://www.facebook.com/opensensorsdata
+  medium:           https://medium.com/opensensorsdata-review
+  linkedin:         https://www.linkedin.com/company/opensensorsdata-srl
