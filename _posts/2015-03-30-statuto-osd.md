@@ -5,6 +5,7 @@ image: http://doc.opensensorsdata.it/public/images/featured/kndnsk.png
 imglink: http://opensensorsdata.it
 tags:
  - osd
+ - doc
 ---
 
 Repertorio n. **34845** Raccolta n. **27490**

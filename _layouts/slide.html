@@ -1,65 +1,77 @@
-<!doctype html>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="/reveal.js/css/theme/{{ page.reveal.theme }}.css">
-    <link rel="stylesheet" href="/reveal.js/lib/css/zenburn.css">
-    <script>
-      // If the query includes 'print-pdf' we'll use the PDF print sheet
-      document.write( '<link rel="stylesheet" href="/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
-    </script>
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="state-background"></div>
-      
-      <div class="slides">
-          {{ content }}
-      </div>
+---
+layout: default
+---
 
-      <div class="progress"><span></span></div>
-    </div>
+<div class="post">
+  <h1 class="post-title"><a href="{{ page.link }}"><i class="fa fa-desktop"></i> {{ page.title }}</a></h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span> 
 
-    <script src="/reveal.js/lib/js/head.min.js"></script>
-    <script src="/reveal.js/js/reveal.min.js"></script>
+  {{ content }}
 
-    <script>
-      // Full list of configuration options available here:
-      // https://github.com/hakimel/reveal.js.js#configuration
-      Reveal.initialize({
-      controls: {{ page.reveal.controls }},
-      progress: {{ page.reveal.progress }},
-      slideNumber: {{ page.reveal.slideNumber }},
-      history: {{ page.reveal.history }},
-      keyboard: {{ page.reveal.keyboard }},
-      overview: {{ page.reveal.overview }},
-      center: {{ page.reveal.center }},
-      touch: {{ page.reveal.touch }},
-      loop: {{ page.reveal.loop }},
-      rtl: {{ page.reveal.rtl }},
-      fragments: {{ page.reveal.fragments }},
-      embedded: {{ page.reveal.embedded }},
-      autoSlide: {{ page.reveal.autoSlide }},
-      autoSlideStoppable: {{ page.reveal.autoSlideStoppable }},
-      mouseWheel: {{ page.reveal.mouseWheel }},
-      hideAddressBar: {{ page.reveal.hideAddressBar }},
-      previewLinks: {{ page.reveal.previewLinks }},
-      transition: Reveal.getQueryHash().transition || '{{ page.reveal.transition }}', // default/cube/page/concave/linear(2d)
-      transitionSpeed: '{{ page.reveal.transitionSpeed }}',
-      backgroundTransition: '{{ page.reveal.backgroundTransition }}',
-      viewDistance: {{ page.reveal.viewDistance }},
-      parallaxBackgroundImage: '{{ page.reveal.parallaxBackgroundImage }}',
-      parallaxBackgroundSize: '{{ page.reveal.parallaxBackgroundSize }}',
-      // Optional libraries used to extend on reveal.js
-      dependencies: [
-        { src: '/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: '/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-        { src: '/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
-        { src: '/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } }
-      ]
-      });
-    </script>
-  </body>
-</html>
+
+</div>
+
+
+  <p class="post-tags">
+  {% if page.tags != empty %}<br />
+    {% for tag in page.tags %}
+      <a href="{{ '-ref' | prepend: tag | replace: ' ','-' | prepend: 'tags/#' | prepend: site.baseurl }}"><i class="fa fa-tags"></i> {{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  {% endif %}
+  </p>
+
+<hr />
+
+<!-- social buttons -->
+<div class="social-section">
+  <div class="fb-like" data-href="{{ page.url }}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="osd_it" data-lang="en" data-dnt="true">Tweet</a>
+</div>
+
+<!--Twitter widget-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<!-- disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'opensensorsdata';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'opensensorsdata';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -2,6 +2,19 @@
 layout: page
 ---
 
+  {% if page.image %}
+  <div class="overlay"></div>
+  {% if page.image contains 'https://' | escape or page.image contains 'http://' | escape %}
+  <div class="featured-image"><img class"feat-img" src="{{ page.image }}"></div>
+  {% else %}
+  <div class="featured-image"><img src="{{ page.image }}"></div>
+  {% else %}
+  <div class="featured-image"><img src="{{ page.image }}"></div>
+  {% endif %}
+{% endif %}
+<div class="imglink"> <a href="{{ page.imglink }}"><i class="fa fa-file-image-o fa-lg"></i> {{ page.imglink }}</a> </div>
+
+
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
 

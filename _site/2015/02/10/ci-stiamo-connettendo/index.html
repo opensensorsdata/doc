@@ -11,7 +11,7 @@
 
   <title>
     
-      how to sync a github fork &middot; documents
+      Ci stiamo connettendo &middot; documents
     
   </title>
 
@@ -35,7 +35,7 @@
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
@@ -45,7 +45,7 @@
   <!-- Enable Graph API for Facebook integration -->
   <meta content="documents" property="og:site_name">
   
-    <meta content="how to sync a github fork" property="og:title">
+    <meta content="Ci stiamo connettendo" property="og:title">
   
   
     <meta content="article" property="og:type">
@@ -54,10 +54,10 @@
     <meta content="the archive of <a href="http://opensensorsdata.it" target="_blank">opensensorsdata</a>" property="og:description">
    -->
   
-    <meta content="//2015/07/07/how-to-sync-a-fork//" property="og:url">
+    <meta content="//2015/02/10/ci-stiamo-connettendo//" property="og:url">
   
   
-    <meta content="2015-07-07T00:00:00+02:00" property="article:published_time">
+    <meta content="2015-02-10T00:00:00+01:00" property="article:published_time">
     <meta content="//about/" property="article:author">
   
   
@@ -65,7 +65,9 @@
   
   
     
-    <meta content="github" property="article:tag">
+    <meta content="post" property="article:tag">
+    
+    <meta content="howto" property="article:tag">
     
   
   
@@ -74,17 +76,15 @@
     <meta name="twitter:site" content="@site_username">
     <meta name="twitter:creator" content="@creator_username">
     
-      <meta name="twitter:title" content="how to sync a github fork">
+      <meta name="twitter:title" content="Ci stiamo connettendo">
     
     
-      <meta name="twitter:url" content="/2015/07/07/how-to-sync-a-fork/">
+      <meta name="twitter:url" content="/2015/02/10/ci-stiamo-connettendo/">
      
 <!--     This is from @stammy -->
-     <meta name="twitter:description" content="When i [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) a repo my worst problem is how to sync my repo with the principal master.
-
-So... this is the action&#39;s list for resolve t...">
+     <meta name="twitter:description" content="">
     
-      <meta name="twitter:image:src" content="/path/to/image/https://octodex.github.com/images/andycat.jpg">
+      <meta name="twitter:image:src" content="/path/to/image/logo.png">
       
   
 
@@ -126,22 +126,22 @@ So... this is the action&#39;s list for resolve t...">
       
         
           
-            <a class="sidebar-nav-item" href="/pages/Slide">Keynote</a>
-          
-        
-      
-        
-          
             <a class="sidebar-nav-item" href="/pages/about/">About</a>
           
         
       
         
-          
-            <a class="sidebar-nav-item" href="/about/">About</a>
+      
+        
           
         
       
+        
+          
+        
+      
+        
+          
         
       
         
@@ -154,7 +154,7 @@ So... this is the action&#39;s list for resolve t...">
       
     </nav>
 
-    <p class="copy"><a href="https://github.com/opensensorsdata/"><i class="fa fa-github fa-lg"></i></a> | <a href="https://twitter.com/osd_it"><i class="fa fa-twitter fa-lg"></i></a> | <a href="https://www.facebook.com/opensensorsdata"><i class="fa fa-facebook fa-lg"></i></a> | <a href="https://medium.com/opensensorsdata-review"><i class="fa fa-medium fa-lg"></i></a> | <a href="https://www.linkedin.com/company/opensensorsdata-srl"><i class="fa fa-linkedin fa-lg"></i></a></p>
+    <p class="copy"><a href="https://github.com/opensensorsdata/"><i class="fa fa-github fa-lg"></i></a> | <a href="https://twitter.com/osd_it"><i class="fa fa-twitter fa-lg"></i></a> | <a href="https://www.facebook.com/opensensorsdata"><i class="fa fa-facebook fa-lg"></i></a> | <a href="https://medium.com/opensensorsdata-review"><i class="fa fa-medium fa-lg"></i></a></p>
 
 
 
@@ -175,53 +175,31 @@ So... this is the action&#39;s list for resolve t...">
 
     <div class="content container">
       <div class="post">
-  <h1 class="post-title">how to sync a github fork</h1>
-  <span class="post-date">07 Jul 2015 <i class="fa fa-clock-o"></i> <span class="reading-time" title="Estimated read time">
-  
-  
-    1 min
-  
-</span></span> 
-  
-  <div class="overlay"></div>
-  
-  <div class="featured-image"><img class"feat-img" src="https://octodex.github.com/images/andycat.jpg"></div>
-  
+  <h1 class="post-title"><a href="https://medium.com/opensensorsdata-review/ci-stiamo-connettendo-e3683696e115"><i class="fa fa-external-link"></i> Ci stiamo connettendo</a></h1>
+  <span class="post-date">10 Feb 2015</span> 
 
-<div class="imglink"> <a href="https://octodex.github.com/andycat/"><i class="fa fa-file-image-o fa-lg"></i> https://octodex.github.com/andycat/</a> </div>
-
-  <p>When i <a href="https://en.wikipedia.org/wiki/Fork_(software_development)">fork</a> a repo my worst problem is how to sync my repo with the principal master.</p>
-
-<p>So… this is the action’s list for resolve this problem.</p>
-
-<ol>
-  <li>go to the <a href="https://help.github.com/articles/fork-a-repo/">official doc by github about fork a repo</a></li>
-  <li>open the terminal into the folder</li>
-  <li><code>git remote -v</code>
- <code># origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)</code>
- <code># origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)</code></li>
-  <li>type <code>git remote add upstream</code> with url from <img src="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png" alt="image url" /></li>
-  <li><a href="https://help.github.com/articles/syncing-a-fork/">how to syncing a fork</a></li>
-</ol>
+  
 
 
 
 </div>
 
 
-<p class="post-tags">
-<br />
+  <p class="post-tags">
+  <br />
+    
+      <a href="/tags/#post-ref"><i class="fa fa-tags"></i> post</a>, 
+    
+      <a href="/tags/#howto-ref"><i class="fa fa-tags"></i> howto</a>
+    
   
-    <a href="/tags/#github-ref"><i class="fa fa-tags"></i> github</a>
-  
-
-</p>
+  </p>
 
 <hr />
 
 <!-- social buttons -->
 <div class="social-section">
-  <div class="fb-like" data-href="/2015/07/07/how-to-sync-a-fork/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  <div class="fb-like" data-href="/2015/02/10/ci-stiamo-connettendo/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
   <a href="https://twitter.com/share" class="twitter-share-button" data-via="osd_it" data-lang="en" data-dnt="true">Tweet</a>
 </div>
 
@@ -263,27 +241,27 @@ So... this is the action&#39;s list for resolve t...">
     
       <li>
         <h3>
-          <a href="/2015/05/29/LINK-Gittorrent/">
-            Announcing GitTorrent A Decentralized GitHub
-            <small>29 May 2015</small>
+          <a href="/2015/09/15/condividete-godetevi-la-vita/">
+            Condividete e Godetevi la vita (con il riuso)
+            <small>15 Sep 2015</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/2015/04/11/credits/">
-            Credits
-            <small>11 Apr 2015</small>
+          <a href="/2015/09/13/POST-La-riproduzione-universale-docoumenti/">
+            La riproduzione universale dei documenti d’archivio
+            <small>13 Sep 2015</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/2015/04/02/LINK-octodex/">
-            Octodex
-            <small>02 Apr 2015</small>
+          <a href="/2015/09/12/POST-Sulla-sospensione-del-giudizio/">
+            Sulla sospensione del giudizio
+            <small>12 Sep 2015</small>
           </a>
         </h3>
       </li>

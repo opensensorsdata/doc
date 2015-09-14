@@ -4,7 +4,7 @@
  <title>documents</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-08-23T19:03:58+02:00</updated>
+ <updated>2015-09-14T17:00:46+02:00</updated>
  <id></id>
  <author>
    <name>osd crew</name>
@@ -13,24 +13,49 @@
 
  
  <entry>
-   <title>how to sync a github fork</title>
-   <link href="/2015/07/07/how-to-sync-a-fork/"/>
-   <updated>2015-07-07T00:00:00+02:00</updated>
-   <id>/2015/07/07/how-to-sync-a-fork</id>
-   <content type="html">&lt;p&gt;When i &lt;a href=&quot;https://en.wikipedia.org/wiki/Fork_(software_development)&quot;&gt;fork&lt;/a&gt; a repo my worst problem is how to sync my repo with the principal master.&lt;/p&gt;
-
-&lt;p&gt;So… this is the action’s list for resolve this problem.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;go to the &lt;a href=&quot;https://help.github.com/articles/fork-a-repo/&quot;&gt;official doc by github about fork a repo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;open the terminal into the folder&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;git remote -v&lt;/code&gt;
- &lt;code&gt;# origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)&lt;/code&gt;
- &lt;code&gt;# origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;type &lt;code&gt;git remote add upstream&lt;/code&gt; with url from &lt;img src=&quot;https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png&quot; alt=&quot;image url&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/syncing-a-fork/&quot;&gt;how to syncing a fork&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
+   <title>Condividete e Godetevi la vita (con il riuso)</title>
+   <link href="/2015/09/15/condividete-godetevi-la-vita/"/>
+   <updated>2015-09-15T00:00:00+02:00</updated>
+   <id>/2015/09/15/condividete-godetevi-la-vita</id>
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/9VJQxA1n8VHJSH&quot; width=&quot;425&quot; height=&quot;355&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/LucaCorsato/2015-09-15-condividete-e-godetevi-la-vita-con-il-riuso&quot; title=&quot;2015 09 15 Condividete e Godetevi la vita (con il riuso)&quot; target=&quot;_blank&quot;&gt;2015 09 15 Condividete e Godetevi la vita (con il riuso)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/LucaCorsato&quot; target=&quot;_blank&quot;&gt;luca corsato&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>La riproduzione universale dei documenti d’archivio</title>
+   <link href="/2015/09/13/POST-La-riproduzione-universale-docoumenti/"/>
+   <updated>2015-09-13T00:00:00+02:00</updated>
+   <id>/2015/09/13/POST-La-riproduzione-universale-docoumenti</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sulla sospensione del giudizio</title>
+   <link href="/2015/09/12/POST-Sulla-sospensione-del-giudizio/"/>
+   <updated>2015-09-12T00:00:00+02:00</updated>
+   <id>/2015/09/12/POST-Sulla-sospensione-del-giudizio</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Il dio geloso dell'opensource</title>
+   <link href="/2015/08/26/POST-il-dio-geloso/"/>
+   <updated>2015-08-26T00:00:00+02:00</updated>
+   <id>/2015/08/26/POST-il-dio-geloso</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>degli opendata che te ne fai... se un progetto non ce l'hai?</title>
+   <link href="/2015/07/14/SLIDE-opendata-che-te-ne-fai/"/>
+   <updated>2015-07-14T00:00:00+02:00</updated>
+   <id>/2015/07/14/SLIDE-opendata-che-te-ne-fai</id>
+   <content type="html">&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/FdKqLuQYyleuTz&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/LucaCorsato/2015-07-14-open-school-of-archaeological-data&quot; title=&quot;degli opendata che te ne fai... se un progetto non ce l&amp;#x27;hai?&quot; target=&quot;_blank&quot;&gt;degli opendata che te ne fai... se un progetto non ce l&amp;#x27;hai?&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/LucaCorsato&quot; target=&quot;_blank&quot;&gt;luca corsato&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
 </content>
  </entry>
  
@@ -48,6 +73,15 @@
 &lt;blockquote&gt;
   &lt;p&gt;First, the practical reasons: GitHub might become untrustworthy, get hacked — or get DDOS’d by China, as happened while I was working on this project! I know GitHub seems to be doing many things right at the moment, but there often comes a point at which companies that have raised $100M in Venture Capital funding start making decisions that their users would strongly prefer them not to.&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>hackijf15 Wikipedia e Giornalismo</title>
+   <link href="/2015/04/14/POST-wikipedia-giornalismo/"/>
+   <updated>2015-04-14T00:00:00+02:00</updated>
+   <id>/2015/04/14/POST-wikipedia-giornalismo</id>
+   <content type="html">
 </content>
  </entry>
  
@@ -78,6 +112,24 @@ this images are licensed under &lt;a href=&quot;https://creativecommons.org/lice
  </entry>
  
  <entry>
+   <title>Il codice è arte | l’arte è codice</title>
+   <link href="/2015/04/08/POST-il-codice-arte/"/>
+   <updated>2015-04-08T00:00:00+02:00</updated>
+   <id>/2015/04/08/POST-il-codice-arte</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>i dati, il tempo e gli strati</title>
+   <link href="/2015/04/04/POST-dati-e-tempo/"/>
+   <updated>2015-04-04T00:00:00+02:00</updated>
+   <id>/2015/04/04/POST-dati-e-tempo</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
    <title>Octodex</title>
    <link href="/2015/04/02/LINK-octodex/"/>
    <updated>2015-04-02T00:00:00+02:00</updated>
@@ -89,6 +141,15 @@ this images are licensed under &lt;a href=&quot;https://creativecommons.org/lice
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/GitHub&quot;&gt;by Wikipedia&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/octocat-de-los-muertos.jpg&quot; alt=&quot;octodex&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Web come infrastruttura + conversazione sui dati = business della conoscenza</title>
+   <link href="/2015/03/30/web-infrastrutture-dati-conversazione/"/>
+   <updated>2015-03-30T00:00:00+02:00</updated>
+   <id>/2015/03/30/web-infrastrutture-dati-conversazione</id>
+   <content type="html">
 </content>
  </entry>
  
@@ -545,6 +606,33 @@ this images are licensed under &lt;a href=&quot;https://creativecommons.org/lice
 &lt;p&gt;&lt;strong&gt;F.to Cortesi Simone&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;F.to Dalla Valle Albano notaio (L.S.)&lt;/strong&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Piattaforme Wiki come somma di openknowledge e crowdsourcing</title>
+   <link href="/2015/03/30/POST-piattaforme-wiki/"/>
+   <updated>2015-03-30T00:00:00+02:00</updated>
+   <id>/2015/03/30/POST-piattaforme-wiki</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>SOD15 è finito viva i dati</title>
+   <link href="/2015/03/29/POST-sod15-finito-viva-dati/"/>
+   <updated>2015-03-29T00:00:00+01:00</updated>
+   <id>/2015/03/29/POST-sod15-finito-viva-dati</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ci stiamo connettendo</title>
+   <link href="/2015/02/10/ci-stiamo-connettendo/"/>
+   <updated>2015-02-10T00:00:00+01:00</updated>
+   <id>/2015/02/10/ci-stiamo-connettendo</id>
+   <content type="html">
 </content>
  </entry>
  
