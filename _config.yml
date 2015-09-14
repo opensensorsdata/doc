@@ -13,6 +13,7 @@ description:      'the archive of <a href="http://opensensorsdata.it" target="_b
 url:              
 baseurl:          /
 logo:             'public/images/osd_simple_200.svg'
+locale:           it
 
 author:
   name:           'osd crew'
@@ -21,7 +22,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          1.0
+version:          1.4
 
 social:
   github:           https://github.com/opensensorsdata/
