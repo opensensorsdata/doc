@@ -60,7 +60,13 @@
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  border: none;
+  box-shadow: none; }
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none; }
+
 
 /*********************************************
  * OTHER
@@ -76,13 +82,13 @@
  *********************************************/
 
 table#header {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 100;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 100;
 	align: workaround;
 	width: 100%; 
 	font-size: 0.4em;
 	margin-top: -50px;
-	margin-bottom: 30px;
+	margin-bottom: 100px;
 }
 
 table#header th {
