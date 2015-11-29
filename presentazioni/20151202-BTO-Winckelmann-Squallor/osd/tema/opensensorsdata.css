@@ -9,7 +9,7 @@
 
 ::selection {
   color: #fff;
-  background: #98bdef;
+  background: #ea5480;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -44,10 +44,10 @@
 }
 
 .reveal h3 {
-  font-size: 1.3em; }
+  font-size: 1em; }
 
 .reveal h4 {
-  font-size: 1em; }
+  font-size: 0.8em; }
 
 .reveal h1 {
   text-shadow: none; }
@@ -77,6 +77,18 @@
 .reveal section img.plain {
   border: 0;
   box-shadow: none; }
+
+.reveal a img {
+  box-shadow: 0 0 5px rgba(0, 47, 167, 0.1);
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear; }
+
+.reveal a:hover img {
+  box-shadow: 0 0 20px rgba(234, 84, 128, 0.55);
+  border-bottom: 0;
+  text-decoration: none; }
+
 
 
 /*********************************************
@@ -132,7 +144,6 @@ table#header td {
  *********************************************/
 .reveal a {
   color: #002fa7;
-  text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
