@@ -4,7 +4,7 @@ title: Keynote
 ---
 
 <div class="home-posts">
-  {% for post in site.posts %}
+  {% for post in site.tags.slide %}
   <ul class="home">
     <li class="home"><a href="{{ slide.link }}"></a> {{ post.date | date_to_string }} &raquo; <a href="{{ slide.url }}">&raquo; {{ post.title }}   </a></li>
 	  <li class="home">
