@@ -4,9 +4,9 @@ title: Keynote
 ---
 
 <div class="home-posts">
-  {% for slide in site.posts %}
+  {% for post.layout == "slide" %}
   <ul class="home">
-    <li class="home"><a href="{{ post.link }}"></a> {{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}">&raquo; {{ post.title }}   </a></li>
+    <li class="home"><a href="{{ slide.link }}"></a> {{ post.date | date_to_string }} &raquo; <a href="{{ slide.url }}">&raquo; {{ post.title }}   </a></li>
 	  <li class="home">
 	    <p class="home-tags"> 
 	      {% if post.tags != empty %}<br/><i class="fa fa-tags"></i>
