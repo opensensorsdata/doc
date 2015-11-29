@@ -8,5 +8,5 @@ tags:
 - beni culturali
 ---
 
-![Copertina Da Winckelmann agli Squallor]({{ site.url }}/public/images/keynote/Da-Winckelmann-agli-Squallor.png)
+[![Copertina Da Winckelmann agli Squallor]({{ site.url }}/public/images/keynote/Da-Winckelmann-agli-Squallor.png)](http://doc.opensensorsdata.it/presentazioni/20151202-BTO-Winckelmann-Squallor/#/)
 [Da Winckelmann agli Squallor](http://doc.opensensorsdata.it/presentazioni/20151202-BTO-Winckelmann-Squallor/#/)
