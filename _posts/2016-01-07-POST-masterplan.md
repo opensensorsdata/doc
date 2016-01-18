@@ -1,6 +1,6 @@
 ---
 layout: medium
-title: Masterplan - Build it to share!
+title: Breve introduzione a Masterplan - Build it to share!
 link: https://medium.com/@lucacorsato/masterplan-aeb009ca8afd#.qxeuhzwhn
 tags:
 - opendata
