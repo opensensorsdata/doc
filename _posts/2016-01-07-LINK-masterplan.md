@@ -6,6 +6,7 @@ tags:
 - Masterplan
 - osd
 - project management
+- open business model
 ---
 
-[Masterplan logo](/public/images/projectopendata_logo.png)
+[![Masterplan logo](/public/images/projectopendata_logo.png)](http://masterplan.opensensorsdata.it)
