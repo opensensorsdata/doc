@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Notes On An Epistemology For Living Things
-image: 
-imglink: 
 tags:
  - epitemologia
  - cibernetica
@@ -10,7 +8,7 @@ tags:
  - doc
 ---
 
-# [Notes On An Epistemology For Living Things](../public/doc/epistemology.pdf)
+# [Notes On An Epistemology For Living Things](/public/doc/epistemology.pdf)
 
 ## di [Heinz Von Foerster](https://en.wikipedia.org/wiki/Heinz_von_Foerster) (1972)
 
@@ -43,4 +41,4 @@ Although Notes may be entered at any place, and completed by going through the c
 
 Since the formalism that will be used may for some appear to obscure more than it reveals, a preview of the twelve propositions (in somewhat modified form) with comments in prose may facilitate reading the notes.
 
-**[CONTINUE and download](public/doc/epistemology.pdf)**
+**[CONTINUE and download](/public/doc/epistemology.pdf)**
