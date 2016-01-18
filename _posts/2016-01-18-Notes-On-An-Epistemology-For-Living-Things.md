@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Notes On An Epistemology For Living Things
-image: http://doc.opensensorsdata.it/public/images/featured/kndnsk.png
-imglink: http://opensensorsdata.it
+image: 
+imglink: 
 tags:
  - epitemologia
  - cibernetica
@@ -10,7 +10,7 @@ tags:
  - doc
 ---
 
-# [Notes On An Epistemology For Living Things](public/doc/epistemology.pdf)
+# [Notes On An Epistemology For Living Things](../public/doc/epistemology.pdf)
 
 ## di [Heinz Von Foerster](https://en.wikipedia.org/wiki/Heinz_von_Foerster) (1972)
 
