@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Notes On An Epistemology For Living Things
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HvF_01.jpg/486px-HvF_01.jpg
+imglink: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HvF_01.jpg/486px-HvF_01.jpg
 tags:
  - epitemologia
  - cibernetica
