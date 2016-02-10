@@ -30,7 +30,7 @@ Quando facciamo ricerca in [osd](http://opensensorsdata.it), lavoriamo soprattut
 
 Insieme, e grazie, ad Antonio Raschi, direttore di [Ibimet CNR](http://www.ibimet.cnr.it/), abbiamo avviato da un po’ di tempo un bel dialogo di confronto e analisi delle loro ricerche e della loro applicazione. Insieme, abbiamo partecipato al convegno sul [Consumo Suolo all’Expo di Milano](https://www.expo.cnr.it/it/node/83), e a diversi incontri con Teo Georgiadis, Valentina Grasso, Alfonso Crisci e Marco Morabito. Come risultato di questo confronto nasce PorcellinoBot. PorcellinoBot parte da un ordine, ricevuto via MEPA il 26 novembre 2015, da parte dell’Ibimet-CNR relativo ad un prodotto chiamato “Datastickers Light”. 
 
-![Ordine MEPA Datstickers Light](../public/images/datastickers_light.png)
+![Ordine MEPA Datstickers Light](/public/images/datastickers_light.png)
 
 Datastickers Light è versione “leggera” di Datastickers inserita nel MEPA e che era stata trovata funzionale da Ibimet per espandere l’interessante sperimentazione che stanno facendo sulle tecnologie di comunicazione dei dati meteo. 
 
