@@ -21,6 +21,7 @@ Uno dei principi intorno al quale ruota il nostro asset aziendale è quello di d
 D’altra parte siamo anche consapevoli che i costi della ricerca sono (e devono essere) alti:
 
 1. lo sono in termini di tempo, perché se il ricercatore avesse già trovato le cose che sta cercando, non avrebbe nulla da cercare. 
+
 2. Lo sono anche in termini economici, perché il bilancio tirato di un’impresa piccola come la nostra non potrebbe permettersi i seppur bassi stipendi dei ricercatori. 
 
 Fortuna che, con quel poco di ricerca che possiamo permetterci, abbiamo capito che le difficoltà menzionate sopra, non sono problemi ma opportunità. 
