@@ -53,7 +53,7 @@ Siamo stanchi di leggere proposte civiche in stile “*ora creiamo una repositor
 
 Siamo annoiati e stufi degli ingenui dell’innovazione. E lo dovreste essere anche voi. 
 
-Se la pubblica amministrazione decide di investire comprando un applicativo, il codice di quest’applicativo, di ogni applicativo, deve essere accessibile e riusabile. 
+Se la pubblica amministrazione decide di investire comprando un applicativo, il codice di quest’applicativo, di ogni applicativo, deve essere accessibile e riusabile e documentato.
 
 Crediamo che questa sia tra le uniche vere azioni che possa dirsi in linea con i valori dell’[Open Government](http://www.opengovpartnership.org/) che, ricordiamo, il nostro [governo sostiene](http://www.opengovpartnership.org/country/italy) e cerca (timidamente, per essere buoni) di implementare nei suoi [piani d’azione](http://www.opengovpartnership.org/country/italy/action-plan). 
 
