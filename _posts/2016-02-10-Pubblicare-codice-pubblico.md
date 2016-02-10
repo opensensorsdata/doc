@@ -28,7 +28,7 @@ Fortuna che, con quel poco di ricerca che possiamo permetterci, abbiamo capito c
 
 Quando facciamo ricerca in [osd](http://opensensorsdata.it), lavoriamo soprattutto con materiale pubblicato, frutto d’investimenti pubblici. Gli articoli che leggiamo vengono dai ricercatori che lavorano ogni giorno nelle nostre università e nei nostri centri di ricerca. E’ venuto naturale, per noi che lavoriamo allo [sviluppo di open business models](http://www.masterplan.tools), pensare di collaborare con alcuni di loro. E abbiamo avuto la fortuna e il piacere di riuscirci. Tutto nasce dal nostro buon [Datasticker](http://www.opensensorsdata.it/#work) che vi abbiamo [già raccontato](https://medium.com/opensensorsdata-review/il-rendering-iconologico-dei-dati-preferibilmente-aperti-f06c6788443a#.4u1th33dk).
 
-#Ibimet CNR e opensensorsdata
+# Ibimet CNR e opensensorsdata
 
 Insieme, e grazie, ad Antonio Raschi, direttore di [Ibimet CNR](http://www.ibimet.cnr.it/), abbiamo avviato da un po’ di tempo un bel dialogo di confronto e analisi delle loro ricerche e della loro applicazione. Insieme, abbiamo partecipato al convegno sul [Consumo Suolo all’Expo di Milano](https://www.expo.cnr.it/it/node/83), e a diversi incontri con [Teo Georgiadis](http://www.cnr.it/sitocnr/video_view.html?id_video=3540), [Valentina Grasso](http://www.fi.ibimet.cnr.it/staff/grasso-valentina), [Alfonso Crisci](http://www.fi.ibimet.cnr.it/staff/crisci-alfonso) e [Marco Morabito](http://www.fi.ibimet.cnr.it/staff/morabito-marco). 
 
