@@ -7,5 +7,5 @@ tags:
 - giornalismo
 ---
 
-[![Copertina Giornalisti Robot]({{ site.url }}/public/images/keynote/20160223-HHVE-Giornalisti-robot/media/copertina.png)](http://doc.opensensorsdata.it/keynote/20160223-HHVE-Giornalisti-robot/#/)
+[![Copertina Giornalisti Robot]({{ site.url }}/public/keynote/20160223-HHVE-Giornalisti-robot/media/copertina.png)](http://doc.opensensorsdata.it/keynote/20160223-HHVE-Giornalisti-robot/#/)
 [Giornalisti Robot](http://doc.opensensorsdata.it/keynote/20160223-HHVE-Giornalisti-robot/#/)
