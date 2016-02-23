@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Giornalisti Robot</title>
+
+		<meta name="description" content="L'informazione dai 5€ al pezzo al Bot">
+		<meta name="author" content="opensensorsdata">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<meta property="og:title" content="I Giornalisti Robot"/>
+		<meta property="og:description" content="I Giornalisti Robot"/> 
+		<meta property="og:type" content="Visualization"/>
+		<meta property="og:url" content="doc.opensensorsdata.it/keynote/20151202-BTO-Winckelmann-Squallor" />
+		<meta property="og:image" content="media/terminator.jpg"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<!-- FONT -->
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<!-- FAVICON -->
+		<link rel="shortcut icon" href="osd/media/favicon.ico">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Giornalisti Robot</h1>
+					<h3>L'informazione dai 5€ al pezzo al Bot</h3>
+					<p><a href="http://www.meetup.com/it-IT/Hacks-Hackers-Venezia">Hacks/Hackers Venezia</a></p>
+					<img width="10%" height="10%" data-src="media/HHVE.jpeg" alt="Hacks/Hackers logo">
+					<p><small>by <a href="http://www.opensensorsdata.it/#contact">opensensordata</a> / <a href="http://twitter.com/lucacorsato">@lucacorsato</a></small></p>
+					<img width="5%" height="5%" data-src="media/osd_logo.png" alt="opensensorsdata logo">
+				</section>
+
+				<section>
+					<h2>Il bot è entrato nel linguaggio corrente</h2>
+					<p>
+						 e lo intendiamo sempre di più come un compagno di strada... ma che cos'è un bot?
+					</p>
+				</section>
+
+				<section data-background="media/terminator.gif">
+					<br>
+					<br>
+					<h2 style="color: #fff">Questo è un Bot?</h2>
+				</section>
+
+				<section>
+					<h2>Vediamo un po' su <a href="https://it.wikipedia.org/wiki/Bot">Wikipedia</a></h2>
+					<p><small>Il bot (abbreviazione di robot) in terminologia informatica in generale è un programma che accede alla rete attraverso lo stesso tipo di canali utilizzati dagli utenti umani (per esempio che accede alle pagine Web, invia messaggi in una chat, si muove nei videogiochi, e così via). Programmi di questo tipo sono diffusi in relazione a molti diversi servizi in rete, con scopi vari ma in genere legati all'automazione di compiti che sarebbero troppo gravosi o complessi per gli utenti umani.</small></p>
+					<br>
+					<p><small>Nei paesi anglosassoni, con “Bot” s'intende un programma autonomo che nei social network fa credere all'utente di comunicare con un'altra persona umana. Questi bot migliorano di anno in anno ed è sempre più difficile distinguere un bot da una persona umana.</small></p>
+				</section>
+
+				<section>
+					<h2><a href="https://it.wikipedia.org/wiki/Tre_leggi_della_robotica">3 Leggi della robotica di Asimov</a></h2>
+					<ul>
+						<li><small>Un robot non può recar danno a un essere umano né può permettere che, a causa del proprio mancato intervento, un essere umano riceva danno.</small></li>
+						<li><small>Un robot deve obbedire agli ordini impartiti dagli esseri umani, purché tali ordini non contravvengano alla Prima Legge.</small></li>
+						<li><small>Un robot deve proteggere la propria esistenza, purché questa autodifesa non contrasti con la Prima o con la Seconda Legge.</small></li>
+					</ul>
+				</section>
+
+
+				<section data-background="media/terminator.jpg">
+					<h2 style="color: #fff">Il bot non deve simulare l'uomo</h2>
+					<br>
+					<br>
+					<h2 style="color: #fff">Deve assisterlo</h2>
+				</section>
+
+				<section>
+					<h2><a href="https://it.wikipedia.org/wiki/Il_Turco">Il Turco</a> era un automa del '700</h2>
+					<img src="media/Turk.jpg">
+				</section>
+
+				<section>
+					<h2>Ma era un trucco</h2>
+					<img src="media/Turk-2.jpg">
+				</section>
+
+				<section>
+					<h2>Un bot deve simulare il giornalista?</h2>
+				</section>
+
+
+				<section>
+					<section>
+						<h2><a href="http://qz.com/613700/its-here-quartzs-first-news-app-for-iphone/">Quartz</a></h2>
+						<img src="media/quartz-app-chat-ui.png">
+					</section>
+					<section>
+						<h3><i>Quartz for iPhone has all of that. It’s an ongoing conversation about the news, sort of like texting: We’ll send you messages, photos, GIFs, and links, and you can tap to respond when you’re interested in learning more about a topic</i></h3>
+					</section>
+					<section>
+						<p>Un Bot traduce lo stream di news in messaggi <i>colloquiali</i></p>
+						<br>
+						<p>Un algoritmo memorizza le interazioni</p>
+						<br>
+						<p>Il bot impara dall'algoritmo</p>
+						<br>
+						<h2>E il giornalista?</h2>
+					</section>
+				</section>
+
+				<section>
+					<h2>Il bot non è una novità</h2>
+					<p><small>nel 1966 viene creata <a href="http://nlp-addiction.com/eliza/">ELIZA</a> <a href="https://it.wikipedia.org/wiki/ELIZA">(Wikipedia)</a></small></p>
+					<img src="media/ELIZA.png">
+				</section>
+
+				<section>
+					<h2><a href="">Captologia</a></h2>
+					<img src="media/captology.jpg">
+					<small><b>Computers As Persuasive Technologies</b> <i>lo studio dei computer come tecnologie persuasive. Questa recente area d'indagine esplora lo spazio di confine tra persuasione (influenza, motivazione, cambio di comportamento e così via) e tecnologia del computer. </i></small>
+					<small><a href="https://www.flickr.com/photos/34557143@N07/3283901503">fonte immagine</a></small>
+				</section>
+
+				<section>
+					<h2>L'automazione come induzione dei comportamenti</h2>
+					<p>Il vettore informativo modifica l'acquisizione e la rielaborazione critica del messaggio</p>
+				</section>
+
+				<section>
+					<h2>Dal broadcast al passaparola automatico</h2>
+				</section>
+
+				<section>
+					<h2>Progettare un bot</h2>
+				</section>
+
+				<section>
+					<h2>Un'orchestra tra umani e macchine</h2>
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/MAbKXp7CP0g?rel=0&amp;showinfo=0&autoplay=0&autohide=1" frameborder="0" allowfullscreen></iframe>
+				</section>
+
+				<section>
+					<section>
+						<h2>5 fasi di progettazione</h2>
+						<ul>
+							<li>Mobilitare</li>
+							<li>Comprendere</li>
+							<li>Progettare</li>
+							<li>Implementare</li>
+							<li>Gestire</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Mobilitare</h2>
+						<p>Il bot è qualcosa che compie delle azioni automatiche e fa compiere delle azioni per ottenere un valore (informativo, aggregativo, economico...)</p>
+						<ul>
+							<li>Quali azioni voglio automatizzare?</li>
+							<li>Il bot mi escluderebbe da quali attività?</li>
+							<li>Il bot mi fa approfondire altre attività?</li> 
+							<li>Valorizza il mio ruolo?</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Comprendere</h2>
+						<p>Cosa so delle attività e degli ambiti in cui agirà il bot</p>
+						<ul>
+							<li>Che ambiti?</li> 
+							<li>Con quali tecnologie?</li>
+							<li>Voglio far riconoscere il bot ai miei lettori?</li>
+							<li>I miei lettori accetterebbero un bot?</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Progettare</h2>
+						<p>Dalle informazione al prototipo</p>
+						<ul>
+							<li>Ho bisogno di competenze specifiche?</li> 
+							<li>So cosa voglio?</li>
+							<li>I lettori sono sulle piattaforme dove agisce il bot?</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Implementare</h2>
+						<p>Applico il bot al contesto e osservo</p>
+						<ul>
+							<li>Come reagisce il contesto?</li> 
+							<li>Ci sono errori?</li> 
+							<li>Ci sono funzioni da aggiungere o togliere?</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Gestire</h2>
+						<p>bisogna curare sempre il prodotto</p>
+						<ul>
+							<li>Ho interesse a mantenere il bot?</li>
+							<li>Ho controllo sugli effetti del bot?</li>
+							<li>Il bot genera valore (economico e/o reputazionale)?</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Definiamo il progetto</h2>
+					<img style="width: 80%" src="media/Masterplan_BMC.png">
+				</section>
+
+				<section>
+					<section>
+						<h2><a href="https://core.telegram.org/bots">Telegram Bot API</a></h2>
+						<img  style="width: 50%" src="media/botfather.png">
+					</section>
+					<section>
+						<h2>le cinture nere dei bot</h2>
+						<h3><a href="https://github.com/piersoft?tab=repositories">Piersoft</a></h3>
+						<h3><a href="https://github.com/iltempe?tab=repositories">Matteo "Il Tempe" Tempestini</a>
+					</section>
+					<section>
+						<h2><a href="https://core.telegram.org/bots#1-what-can-i-do-with-bots">Cosa si può fare con i Bot di Telegram</a></h2>
+						<img src="media/telegram_bot1.png">
+					</section>
+					<section>
+						<h2>Il <a href="https://telegram.me/porcellinobot">PorcellinoBot</a> visto "da dentro"</h2>
+						<img src="media/porcellino_github.png">
+					</section>
+					<section>
+						<h2>Per fare un bot serve:</h2>
+						<ul>
+							<li>Il progetto (attività e contesto)</li>
+							<li>Github (per appoggiare il codice)</li>
+							<li>un server o qualcosa che "faccia i conti" (Google Drive, un repository dati con API)</li>
+							<li><h2><a href="https://telegram.me/BotFather">Botfather</a></h2></li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>L'evoluzione di Telegram: Bot con Bot</h2>
+					<img src="media/telegram_bot2.png">
+				</section>
+
+				<section>
+					<h1>Stiamo usando i bot...</h1>
+				</section>
+
+				<section>
+					<h1>o stiamo insegnando i bot ad usarci?</h1>
+				</section>
+
+				<section>
+					<h2>Grazie</h2>
+					<img src="media/37_tre_grazie.png">
+					<br>
+					<small>luca corsato <a href="www.opensensorsdata.it">www.opensensorsdata.it</a></small>
+				</section>
+
+
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
