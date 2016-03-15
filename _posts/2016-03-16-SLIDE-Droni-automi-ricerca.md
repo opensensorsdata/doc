@@ -8,4 +8,4 @@ tags:
 ---
 
 [![Copertina I droni come automi della ricerca aperta]({{ site.url }}/public/images/keynote/droni-automi.png)](http://doc.opensensorsdata.it/keynote/20160316-CNR-Droni-sensori/#/)
-[I droni come automi della ricerca apert](http://doc.opensensorsdata.it/keynote/20160316-CNR-Droni-sensori/#/)
+[I droni come automi della ricerca aperti](http://doc.opensensorsdata.it/keynote/20160316-CNR-Droni-sensori/#/)
